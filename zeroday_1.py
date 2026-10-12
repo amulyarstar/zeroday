@@ -7,7 +7,6 @@ def simulate_one_vulnerability(patch_mean, patch_std, attack_mean):
         return True   
     else:
         return False
-
   if __name__ == "__main__":         
     for i in range(10):
         result = simulate_one_vulnerability(21, 7, 5)
